@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48114AFD21E70C8B00694487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48114AFB21E70C8B00694487 /* Main.storyboard */; };
+		48114AFF21E70C8D00694487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48114AFE21E70C8D00694487 /* Assets.xcassets */; };
+		48114B0221E70C8D00694487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48114B0021E70C8D00694487 /* LaunchScreen.storyboard */; };
+		48114B2921E83D4800694487 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48114B2821E83D4800694487 /* Venue.swift */; };
+		48114B2D21E9A8F400694487 /* VenueListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48114B2C21E9A8F400694487 /* VenueListCell.swift */; };
+		48114B3021E9CC0D00694487 /* FourSquareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48114B2F21E9CC0D00694487 /* FourSquareManager.swift */; };
+		48114B3221E9DA4E00694487 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48114B3121E9DA4E00694487 /* Location.swift */; };
+		48114B3421E9DA5E00694487 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48114B3321E9DA5E00694487 /* Response.swift */; };
+		48114B3621E9DA6E00694487 /* VenuesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48114B3521E9DA6E00694487 /* VenuesResponse.swift */; };
+		48114B4821E9DEB300694487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48114B4421E9DEB300694487 /* AppDelegate.swift */; };
+		48114B4921E9DEB300694487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48114B4621E9DEB300694487 /* ViewController.swift */; };
+		48114B4A21E9DEB300694487 /* VenuDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48114B4721E9DEB300694487 /* VenuDetailViewController.swift */; };
+		48114B4D21E9E0E900694487 /* VenueListCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48114B4C21E9E0E900694487 /* VenueListCellModel.swift */; };
+		48114B4F21E9E0FF00694487 /* VenueDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48114B4E21E9E0FF00694487 /* VenueDetailModel.swift */; };
+		483B35A921EAF47200691694 /* FourSquareManagerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483B35A821EAF47200691694 /* FourSquareManagerProtocols.swift */; };
+		CF7E0F61437044B8BA53D798 /* Pods_ZigZagMediaExam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D072E46EF9ED481E7495E956 /* Pods_ZigZagMediaExam.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48114AF421E70C8B00694487 /* ZigZagMediaExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZigZagMediaExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48114AFC21E70C8B00694487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48114AFE21E70C8D00694487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48114B0121E70C8D00694487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48114B0321E70C8D00694487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48114B2821E83D4800694487 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		48114B2C21E9A8F400694487 /* VenueListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListCell.swift; sourceTree = "<group>"; };
+		48114B2F21E9CC0D00694487 /* FourSquareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSquareManager.swift; sourceTree = "<group>"; };
+		48114B3121E9DA4E00694487 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		48114B3321E9DA5E00694487 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		48114B3521E9DA6E00694487 /* VenuesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesResponse.swift; sourceTree = "<group>"; };
+		48114B4421E9DEB300694487 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48114B4621E9DEB300694487 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48114B4721E9DEB300694487 /* VenuDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuDetailViewController.swift; sourceTree = "<group>"; };
+		48114B4C21E9E0E900694487 /* VenueListCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueListCellModel.swift; sourceTree = "<group>"; };
+		48114B4E21E9E0FF00694487 /* VenueDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailModel.swift; sourceTree = "<group>"; };
+		483B35A821EAF47200691694 /* FourSquareManagerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSquareManagerProtocols.swift; sourceTree = "<group>"; };
+		D072E46EF9ED481E7495E956 /* Pods_ZigZagMediaExam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZigZagMediaExam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F524B257B925571F063CE5 /* Pods-ZigZagMediaExam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZigZagMediaExam.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZigZagMediaExam/Pods-ZigZagMediaExam.release.xcconfig"; sourceTree = "<group>"; };
+		EF7289A5DE6BE23C995D0009 /* Pods-ZigZagMediaExam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZigZagMediaExam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZigZagMediaExam/Pods-ZigZagMediaExam.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48114AF121E70C8B00694487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7E0F61437044B8BA53D798 /* Pods_ZigZagMediaExam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48114AEB21E70C8B00694487 = {
+			isa = PBXGroup;
+			children = (
+				48114AF621E70C8B00694487 /* ZigZagMediaExam */,
+				48114AF521E70C8B00694487 /* Products */,
+				D3E4013EF93ED6FD4660CCA5 /* Pods */,
+				4CC7D9A2261F9A2A41A99B5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48114AF521E70C8B00694487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48114AF421E70C8B00694487 /* ZigZagMediaExam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48114AF621E70C8B00694487 /* ZigZagMediaExam */ = {
+			isa = PBXGroup;
+			children = (
+				48114B4321E9DEB300694487 /* App Delegate */,
+				48114B2721E83D3100694487 /* Models */,
+				48114B2B21E9A8E300694487 /* Views */,
+				48114B4B21E9E0E900694487 /* ViewModels */,
+				48114B4521E9DEB300694487 /* Controllers */,
+				48114B2E21E9CC0300694487 /* FourSquareManager */,
+				483B35A721EAF45500691694 /* Protocols */,
+				48114AFB21E70C8B00694487 /* Main.storyboard */,
+				48114AFE21E70C8D00694487 /* Assets.xcassets */,
+				48114B0021E70C8D00694487 /* LaunchScreen.storyboard */,
+				48114B0321E70C8D00694487 /* Info.plist */,
+			);
+			path = ZigZagMediaExam;
+			sourceTree = "<group>";
+		};
+		48114B2721E83D3100694487 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48114B2821E83D4800694487 /* Venue.swift */,
+				48114B3121E9DA4E00694487 /* Location.swift */,
+				48114B3321E9DA5E00694487 /* Response.swift */,
+				48114B3521E9DA6E00694487 /* VenuesResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48114B2B21E9A8E300694487 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48114B2C21E9A8F400694487 /* VenueListCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48114B2E21E9CC0300694487 /* FourSquareManager */ = {
+			isa = PBXGroup;
+			children = (
+				48114B2F21E9CC0D00694487 /* FourSquareManager.swift */,
+			);
+			path = FourSquareManager;
+			sourceTree = "<group>";
+		};
+		48114B4321E9DEB300694487 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				48114B4421E9DEB300694487 /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		48114B4521E9DEB300694487 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				48114B4621E9DEB300694487 /* ViewController.swift */,
+				48114B4721E9DEB300694487 /* VenuDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		48114B4B21E9E0E900694487 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				48114B4C21E9E0E900694487 /* VenueListCellModel.swift */,
+				48114B4E21E9E0FF00694487 /* VenueDetailModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		483B35A721EAF45500691694 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				483B35A821EAF47200691694 /* FourSquareManagerProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4CC7D9A2261F9A2A41A99B5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D072E46EF9ED481E7495E956 /* Pods_ZigZagMediaExam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E4013EF93ED6FD4660CCA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF7289A5DE6BE23C995D0009 /* Pods-ZigZagMediaExam.debug.xcconfig */,
+				E6F524B257B925571F063CE5 /* Pods-ZigZagMediaExam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48114AF321E70C8B00694487 /* ZigZagMediaExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48114B0621E70C8D00694487 /* Build configuration list for PBXNativeTarget "ZigZagMediaExam" */;
+			buildPhases = (
+				771CE3599F201C3F76BA813F /* [CP] Check Pods Manifest.lock */,
+				48114AF021E70C8B00694487 /* Sources */,
+				48114AF121E70C8B00694487 /* Frameworks */,
+				48114AF221E70C8B00694487 /* Resources */,
+				BC59A303F624AC155720BE8C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZigZagMediaExam;
+			productName = ZigZagMediaExam;
+			productReference = 48114AF421E70C8B00694487 /* ZigZagMediaExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48114AEC21E70C8B00694487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "John Christopher Bernabe";
+				TargetAttributes = {
+					48114AF321E70C8B00694487 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 48114AEF21E70C8B00694487 /* Build configuration list for PBXProject "ZigZagMediaExam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48114AEB21E70C8B00694487;
+			productRefGroup = 48114AF521E70C8B00694487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48114AF321E70C8B00694487 /* ZigZagMediaExam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48114AF221E70C8B00694487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48114B0221E70C8D00694487 /* LaunchScreen.storyboard in Resources */,
+				48114AFF21E70C8D00694487 /* Assets.xcassets in Resources */,
+				48114AFD21E70C8B00694487 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		771CE3599F201C3F76BA813F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZigZagMediaExam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC59A303F624AC155720BE8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZigZagMediaExam/Pods-ZigZagMediaExam-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FoursquareAPIClient/FoursquareAPIClient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoursquareAPIClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZigZagMediaExam/Pods-ZigZagMediaExam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48114AF021E70C8B00694487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48114B4821E9DEB300694487 /* AppDelegate.swift in Sources */,
+				48114B2D21E9A8F400694487 /* VenueListCell.swift in Sources */,
+				48114B4F21E9E0FF00694487 /* VenueDetailModel.swift in Sources */,
+				48114B2921E83D4800694487 /* Venue.swift in Sources */,
+				48114B4D21E9E0E900694487 /* VenueListCellModel.swift in Sources */,
+				48114B4921E9DEB300694487 /* ViewController.swift in Sources */,
+				48114B3621E9DA6E00694487 /* VenuesResponse.swift in Sources */,
+				48114B3221E9DA4E00694487 /* Location.swift in Sources */,
+				483B35A921EAF47200691694 /* FourSquareManagerProtocols.swift in Sources */,
+				48114B4A21E9DEB300694487 /* VenuDetailViewController.swift in Sources */,
+				48114B3021E9CC0D00694487 /* FourSquareManager.swift in Sources */,
+				48114B3421E9DA5E00694487 /* Response.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48114AFB21E70C8B00694487 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48114AFC21E70C8B00694487 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48114B0021E70C8D00694487 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48114B0121E70C8D00694487 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48114B0421E70C8D00694487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48114B0521E70C8D00694487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48114B0721E70C8D00694487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7289A5DE6BE23C995D0009 /* Pods-ZigZagMediaExam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZigZagMediaExam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcb.ZigZagMediaExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48114B0821E70C8D00694487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F524B257B925571F063CE5 /* Pods-ZigZagMediaExam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZigZagMediaExam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcb.ZigZagMediaExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48114AEF21E70C8B00694487 /* Build configuration list for PBXProject "ZigZagMediaExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48114B0421E70C8D00694487 /* Debug */,
+				48114B0521E70C8D00694487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48114B0621E70C8D00694487 /* Build configuration list for PBXNativeTarget "ZigZagMediaExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48114B0721E70C8D00694487 /* Debug */,
+				48114B0821E70C8D00694487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48114AEC21E70C8B00694487 /* Project object */;
+}
